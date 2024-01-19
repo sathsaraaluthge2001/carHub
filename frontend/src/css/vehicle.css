@@ -1,0 +1,51 @@
+.vehicle-card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px; /* Adjust the maximum width of the card */
+    margin: 0 auto; /* Center the card */
+    margin-top: 70px;
+    margin-left: 330px;
+    
+  }
+  
+  .vehicle-details {
+    padding: 10px;
+    font-size: 14px;
+    flex: 1; /* Make details take remaining space */
+  }
+  
+  .vehicle-details h3 {
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: bold;
+    
+  }
+
+  .vehicle-details p {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .vehicle-image {
+    margin-left: 60%;
+    margin-top: -450px;
+    width: auto; /* Adjust image width */
+    height: auto; /* Fill available height */
+    padding-right: 20px;
+    margin-right: 20px;
+  }
+  
+  .vehicle-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .sp{
+    color: black;
+  }
+  

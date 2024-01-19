@@ -1,0 +1,273 @@
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color:#fe5b29; /* Green color - you can adjust this */
+  color: rgb(23, 3, 94);
+  padding-top: 20px;
+  font-weight: bold;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.sidebar h2 {
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px 10px 10px 10px;
+  position: relative;
+
+}
+
+.sidebar ul li a {
+  color: #fffcfc;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+  font-weight: bold;
+  height: 50px;
+}
+
+.sidebar ul li a:hover {
+  background-color: #fe5b29;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2ecc71; /* Darker color for dropdown */
+  min-width: 200px;
+  z-index: 1;
+  border-radius: 0 0 5px 5px;
+  margin-top: -5px;
+}
+
+.dropdown-content a {
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+}
+
+.dropdown-content a:hover {
+  background-color: #4CAF50; /* Green color - same as sidebar */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.admin-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin-info img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.box{
+  border-radius: 30px;
+}
+/*------------------------------------------------------------------------*/
+
+
+
+.vehicle-details-container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 8px;
+  background: #fe5b29; /* Change background color */
+  border-radius: 15px; /* Adjust border radius */
+}
+
+.vehicle-info1 {
+  display: flex;
+  justify-content: space-between;
+  color: #fff; /* Set text color */
+}
+
+.reg-number1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.detail1 {
+  margin-bottom: 8px;
+ 
+  font-size: larger;
+}
+
+.st {
+  font-weight: bold;
+  color:rgb(49, 37, 37);
+  font-style: normal;
+}
+
+/* Style for vehicle image */
+.veh {
+  
+  margin-top: 5%;
+  height: 400px;
+  
+}
+
+.img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.lbname{
+  color: #fff;
+}
+
+/* Style for booking form */
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30%;
+  margin-top: -30%;
+  background: #fe5b29;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  margin-left: 10px;
+  
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Other general styles */
+.dii {
+  margin: 20px;
+  font-family: Arial, sans-serif; /* Change font family */
+  font-size: 16px;
+ 
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  flex: 0 0 48%; /* Set width for input fields */
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+}
+
+
+/*----------------------------------------------*/
+.ppage{
+  font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+}
+
+.profile-container1 {
+  display: flex;
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.8); /* Use rgba for transparent background */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 8%;
+  color: #333;
+  border-radius: 30px;
+}
+.profile-image1 {
+  width: 200px;
+  height: auto;
+  
+}
+
+.profile-image1 img {
+  
+  border-radius: 5%;
+}
+
+.profile-details1 {
+  margin-left: 09%;
+}
+
+.profile-info1 {
+  margin-bottom: 15px;
+}
+
+.lb{
+  font-weight: bold;
+}
+
+.bbtn{
+  background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.profile-page1{
+  font-family: 'Arial', sans-serif;
+}
+
+/*--------------------------------------*/
+.booki{
+  display: flex;
+  max-width: auto;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.8); /* Use rgba for transparent background */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 3%;
+  color: #333;
+  border-radius: 30px;
+}
+
+.back{
+  background-color: rgba(255, 255, 255, 0.8); /* Use rgba for transparent background */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 3%;
+  color: #333;
+  border-radius: 30px;
+}
